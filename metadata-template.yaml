@@ -29,6 +29,13 @@ authorship:
 asset:
   repository_path: null
   filename: null
+  file_size_bytes: null
+  github_blob_sha: null
   sha256: null
+
+verification:
+  verified: false
+  verification_date: null
+  method: null
 
 notes: ""

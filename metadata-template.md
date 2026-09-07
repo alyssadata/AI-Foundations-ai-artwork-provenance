@@ -10,23 +10,46 @@ YAML is structured plain text. You do not need to learn much of it to use this r
 
 The reusable machine-readable template is [`metadata-template.yaml`](./metadata-template.yaml).
 
-For each finished artwork, copy that structure into `artwork-provenance/` and give the record its own ID, for example:
+## One artwork or a related series
+
+A provenance record can represent either one artwork or a related group of creative experiments.
+
+For a single work, use a title such as:
 
 `ART-001-the-source.yaml`
 
-The YAML preserves the creation chain: the concept, human art direction, generation assistance, iterative changes, recurring creative elements, selection, final approval, and the final asset tied to the record.
+For several related screenshots or variations, use one series record such as:
 
-## Asset integrity fields
+`ART-003-early-self-generation.yaml`
 
-When the final artwork is in the repository, the record can also preserve:
+The grouped record can list several files under `primary_artifacts`. Grouping them does not mean they must all be from the exact same generation job. Use the `relationship` section to say whether they share a concept, experiment, iteration line, or other creative relationship.
 
-- `repository_path` — where the artwork lives in this repository
-- `filename` — the exact asset filename
+## Provenance-bearing screenshots
+
+Historical platform screenshots can be treated as primary provenance artifacts when they preserve useful context such as:
+
+- the generated artwork
+- prompt text
+- model version
+- generation settings
+- account-history placement
+- relative age or date markers
+
+A later standalone download is optional when the screenshot carries stronger provenance information.
+
+## Approximate historical dates
+
+When exact dates cannot be recovered, do not invent them. Use an approximate year or period and explain the basis. Fields can remain `null` when the evidence is insufficient.
+
+## Integrity fields
+
+For each repository artifact, a record may preserve:
+
+- `repository_path` — where the file lives in this repository
+- `filename` — the exact filename
 - `file_size_bytes` — the exact file size
 - `github_blob_sha` — GitHub's blob identifier for the repository object
-- `sha256` — a cryptographic hash of the actual file bytes
-- `verification` — whether and how the recorded asset was checked
+- `sha256` — a portable cryptographic hash of the file bytes when available
+- `verification` — whether and how the record was checked
 
-The GitHub blob SHA and SHA-256 serve different purposes, so both may be recorded. The SHA-256 is the portable content-integrity hash for the artwork itself.
-
-You do not need to fill every field immediately. Unknown or not-yet-recorded values can remain `null` until they are available.
+You do not need to fill every field immediately. The archive can become more precise later without pretending that missing historical information was known earlier.

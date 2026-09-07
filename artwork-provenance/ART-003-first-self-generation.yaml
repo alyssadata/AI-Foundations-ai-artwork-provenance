@@ -1,0 +1,79 @@
+artwork_id: "ART-003"
+title: "First Self-Generation Attempt"
+creator: "Alyssa Solen"
+status: "historical"
+
+creation_date:
+  exact: null
+  estimate: null
+  precision: "unresolved"
+  displayed_age_marker: "175w"
+  basis: "Midjourney creation history displays '175w' in the captured account-history screenshot. A calendar date is not derived from that marker for this record because the same screenshot identifies the model as Midjourney v6, which was released on 2023-12-20."
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  prompt_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+    model: "v6"
+  generation_type: "image-referenced text-to-image generation"
+  prompt: "photorealistic, of beautiful woman, blue eyes, smiling,"
+  image_weight: "2.5"
+  reference_image:
+    subject: "Alyssa Solen"
+    role: "self-reference image used as generation input"
+  platform_job_id: null
+
+lineage:
+  - step: 1
+    description: "Alyssa Solen supplied a photograph of herself as a reference image."
+  - step: 2
+    description: "Alyssa Solen prompted Midjourney with: 'photorealistic, of beautiful woman, blue eyes, smiling,'."
+  - step: 3
+    description: "The creation shown in Midjourney history is labeled v6 with image weight 2.5."
+  - step: 4
+    description: "Alyssa Solen identifies this as her first attempt at generating an image of herself."
+
+creative_elements:
+  - "self-generation experiment"
+  - "photorealistic portrait"
+  - "blue eyes"
+  - "smiling expression"
+  - "soft natural lighting"
+  - "reference-image guided generation"
+
+authorship:
+  concept: "Alyssa Solen"
+  prompt: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  source_reference: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+primary_provenance_artifact:
+  artifact_type: "Midjourney creation-history screenshot"
+  role: "primary provenance record"
+  repository_path: null
+  filename: null
+  file_size_bytes: null
+  github_blob_sha: null
+  sha256: null
+  captured_date: "2026-09-07"
+  shows:
+    - "generated portrait"
+    - "reference image of Alyssa Solen"
+    - "prompt: photorealistic, of beautiful woman, blue eyes, smiling,"
+    - "model: v6"
+    - "image weight: 2.5"
+    - "age marker: 175w"
+
+standalone_artwork:
+  status: "optional"
+
+verification:
+  verified: "partial"
+  verification_date: "2026-09-07"
+  method: "The captured Midjourney account-history view directly supports the displayed artwork, prompt, reference-image use, v6 model label, image-weight value, and 175w age marker. The exact original generation timestamp is unresolved."
+
+notes: "The provenance screenshot is treated as the primary artifact because it preserves the artwork together with its generation context. The apparent conflict between the displayed 175w age marker and the documented v6 release date is preserved rather than silently resolved."

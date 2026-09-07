@@ -1,0 +1,34 @@
+artwork_id: "ART-###"
+title: ""
+creator: "Alyssa Solen"
+creation_date: "YYYY-MM-DD"
+status: "final"
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: ""
+    tool: ""
+    model: null
+  generation_type: ""
+  source_or_reference_assets: []
+
+lineage:
+  - step: 1
+    description: ""
+
+creative_elements: []
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+  final_approval: "Alyssa Solen"
+
+asset:
+  repository_path: null
+  filename: null
+  sha256: null
+
+notes: ""

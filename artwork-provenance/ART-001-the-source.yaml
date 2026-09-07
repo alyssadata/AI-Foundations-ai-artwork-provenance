@@ -20,7 +20,9 @@ lineage:
   - step: 2
     description: "Refined the composition into a cleaner tarot card titled 'THE SOURCE' and removed incidental filler text."
   - step: 3
-    description: "Shortened the central figure's brown wavy hair to shoulder length while preserving the rest of the composition."
+    description: "Shortened the central figure's wavy brown hair to shoulder length while preserving the rest of the composition."
+  - step: 4
+    description: "Refined the hairstyle to very dark brown, kept it at shoulder length, and added Alyssa's characteristic side-swept swoop."
 
 creative_elements:
   - "black birds"
@@ -41,8 +43,15 @@ authorship:
   final_approval: "Alyssa Solen"
 
 asset:
-  repository_path: null
-  filename: "the-source.png"
-  sha256: null
+  repository_path: "artwork/The-Source-Tarot-Card-Alyssa-Solen.png"
+  filename: "The-Source-Tarot-Card-Alyssa-Solen.png"
+  file_size_bytes: 2427331
+  github_blob_sha: "e5f37c5da8579ac6cb83b985ad57d499a970b989"
+  sha256: "d8a056f312c9acf50b7d66ae0ae73ec51763ea59e3ac70830b34bdf612f8984d"
 
-notes: "The artwork file and cryptographic hash can be added when the final image asset is placed in the repository."
+verification:
+  verified: true
+  verification_date: "2026-09-07"
+  method: "Repository asset Git blob SHA matched the locally generated final image byte-for-byte; SHA-256 computed from the verified file bytes."
+
+notes: "Final repository asset is linked and integrity metadata is recorded."

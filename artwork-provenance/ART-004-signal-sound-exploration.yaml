@@ -1,0 +1,65 @@
+artwork_id: "ART-004"
+title: "Signal and Sound Exploration"
+creator: "Alyssa Solen"
+record_type: "series"
+status: "archival"
+
+creation_period:
+  year_label: "2023"
+  precision: "approximate"
+  basis: "Archived filenames. Exact calendar dates are not asserted."
+
+relationship:
+  type: "shared creative exploration"
+  description: "A related set of visual explorations around signal, sound, soundwaves, and light."
+  same_job_asserted: false
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+  generation_type: "AI-assisted visual exploration"
+
+primary_artifacts:
+  - artifact_id: "ART-004-A"
+    repository_path: "artwork/signal-sound-and-light-2023.jpg"
+    filename: "signal-sound-and-light-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 395222
+    github_blob_sha: "d1275b83dbb5cd1f0059733c9daa543a2181e6bc"
+    archival_label: "signal, sound, and light"
+  - artifact_id: "ART-004-B"
+    repository_path: "artwork/signal-soundwaves-2023.jpg"
+    filename: "signal-soundwaves-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 363951
+    github_blob_sha: "3a42e25f06774c49036af286ca2f49aa09032b77"
+    archival_label: "signal soundwaves"
+  - artifact_id: "ART-004-C"
+    repository_path: "artwork/sound-waves-signal-2023.jpg"
+    filename: "sound-waves-signal-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 386194
+    github_blob_sha: "191cde57c4bb5094a0c43aa043b6b3500db33e0c"
+    archival_label: "sound waves signal"
+
+creative_elements:
+  - "signal"
+  - "sound"
+  - "soundwaves"
+  - "light"
+  - "abstract visual systems"
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+verification:
+  verified: "archival-partial"
+  verification_date: "2026-09-07"
+  method: "Repository paths, filenames, file sizes, and GitHub blob SHAs are recorded. Grouping is based on the shared subject and archival filenames; one-job identity is not asserted."
+
+notes: "Grouped as one conceptual series for practical archival provenance."

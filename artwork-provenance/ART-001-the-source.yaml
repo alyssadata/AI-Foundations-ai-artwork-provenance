@@ -1,0 +1,48 @@
+artwork_id: "ART-001"
+title: "The Source"
+creator: "Alyssa Solen"
+creation_date: "2026-09-07"
+status: "final"
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "OpenAI"
+    tool: "ChatGPT image generation"
+    model: null
+  generation_type: "iterative text-guided generation and image editing"
+  source_or_reference_assets: []
+
+lineage:
+  - step: 1
+    description: "Initial concept: a tarot card representing Alyssa Solen's artistic vibe."
+  - step: 2
+    description: "Refined the composition into a cleaner tarot card titled 'THE SOURCE' and removed incidental filler text."
+  - step: 3
+    description: "Shortened the central figure's brown wavy hair to shoulder length while preserving the rest of the composition."
+
+creative_elements:
+  - "black birds"
+  - "radiant sun halo"
+  - "stars and celestial geometry"
+  - "infinity symbol"
+  - "compass symbolism"
+  - "sunflowers"
+  - "waterfalls and reflective water"
+  - "books and hourglass"
+  - "black, ivory, deep navy, aqua, and luminous gold palette"
+  - "ornate tarot-card border"
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+  final_approval: "Alyssa Solen"
+
+asset:
+  repository_path: null
+  filename: "the-source.png"
+  sha256: null
+
+notes: "The artwork file and cryptographic hash can be added when the final image asset is placed in the repository."

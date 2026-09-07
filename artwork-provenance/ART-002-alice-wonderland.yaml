@@ -48,6 +48,7 @@ authorship:
   selection: "Alyssa Solen"
 
 asset:
+  status: "standalone artwork not yet present in repository"
   repository_path: null
   filename: null
   file_size_bytes: null
@@ -55,7 +56,9 @@ asset:
   sha256: null
 
 provenance_evidence:
-  - evidence_type: "Midjourney account history screenshot"
+  - evidence_id: "ART-002-EVIDENCE-001"
+    evidence_type: "Midjourney account history screenshot"
+    evidence_only: true
     captured_date: "2026-09-07"
     repository_path: "artwork/alice-provenance-175w-april-may2023.jpg"
     filename: "alice-provenance-175w-april-may2023.jpg"
@@ -71,6 +74,6 @@ provenance_evidence:
 verification:
   verified: "partial"
   verification_date: "2026-09-07"
-  method: "Prompt, Midjourney model version, historical age marker, and account-history context are supported by the repository screenshot. Exact original generation timestamp and standalone artwork file are not yet recorded."
+  method: "Prompt, Midjourney model version, historical age marker, account-history context, repository path, file size, and GitHub blob SHA are recorded from the uploaded evidence screenshot. The screenshot is evidence, not the standalone original artwork file."
 
-notes: "The downloaded file's local creation timestamp is not used as the artwork creation date because it reflects the later download/save event. Add the standalone artwork asset and its integrity metadata when it is placed in the repository."
+notes: "The downloaded file's local creation timestamp is not used as the artwork creation date because it reflects the later download/save event. The current repository image is retained as provenance evidence. Add the standalone Midjourney artwork file later if desired, then populate the asset integrity fields without changing this historical evidence record."

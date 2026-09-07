@@ -2,38 +2,48 @@
 
 This repository preserves provenance records for AI-assisted artwork created through Alyssa Solen's concepts, art direction, iteration, selection, and final approval.
 
-The purpose is to preserve more than a generic `AI-generated` label. Each record documents the creation chain: what the artwork began as, which tools assisted generation, which changes were directed across iterations, which creative elements define the piece, and which final asset belongs to that record.
+The purpose is to preserve more than a generic `AI-generated` label. Records document the creation chain and the surviving evidence around it: prompts, models, iterative changes, creative direction, recovered account-history screenshots, related explorations, and final or archival assets.
 
 ## Repository structure
 
-- `artwork/` — final artwork assets
-- `artwork-provenance/` — one YAML provenance record per artwork
+- `artwork/` — artwork files and provenance-bearing screenshots
+- `artwork-provenance/` — YAML provenance records for individual works or related creative series
 - `metadata-template.yaml` — reusable machine-readable template
 - `metadata-template.md` — short human-readable guide to the YAML format
 
-## Provenance record
+## Provenance records
 
-Each artwork receives a stable ID such as `ART-001` and its own `.yaml` file. A record can include:
+A stable ID such as `ART-001` can represent either:
 
-- title and creation date
-- concept and art direction
-- generation provider/tool
-- generation or editing method
-- iteration lineage
+- one specific artwork, or
+- a related creative lineage / exploratory series when several files clearly belong together.
+
+A grouped record does **not** have to claim that every image came from the same generation job. The relationship can instead be recorded as a shared concept, experiment, or development line.
+
+Records can include:
+
+- title or working label
+- exact or approximate creation period
+- concept, prompt, and art direction
+- generation provider/tool/model when recoverable
+- iteration or lineage notes
 - recurring creative elements
-- selection and final approval
-- final asset filename/path
-- file size and GitHub blob SHA
-- SHA-256 content hash
-- asset verification status and method
+- one or more primary provenance artifacts
+- repository paths, file sizes, and GitHub blob SHAs
+- SHA-256 content hashes when available
+- verification status and method
 
-Not every field has to be known immediately. Missing information can remain `null` and be added later without changing the earlier provenance history.
+## Provenance-bearing screenshots
 
-## First record
+For recovered historical artwork, a platform-history screenshot may be more useful than a later standalone download because it can preserve the artwork together with contextual evidence such as the prompt, model version, settings, account history, or relative age marker.
 
-`ART-001` documents **The Source**, a tarot-card artwork developed through iterative image generation and editing on September 7, 2026.
+Those screenshots may therefore be treated as **primary provenance artifacts**. A standalone image file is optional unless it adds useful evidence or preserves the final artwork separately.
 
-Its final repository asset is linked directly in the provenance record and includes verified integrity metadata so the recorded provenance points to a specific file, not merely a title or description.
+## Archival uncertainty
+
+Not every historical field can be recovered years later. Unknown information can remain `null`, approximate years can be labeled as approximate, and exact dates are not asserted when the surviving evidence does not support them.
+
+The archive favors preserved evidence over reconstructed certainty.
 
 ## Principle
 

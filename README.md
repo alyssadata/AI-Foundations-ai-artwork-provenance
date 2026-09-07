@@ -23,13 +23,17 @@ Each artwork receives a stable ID such as `ART-001` and its own `.yaml` file. A 
 - recurring creative elements
 - selection and final approval
 - final asset filename/path
-- SHA-256 file hash when available
+- file size and GitHub blob SHA
+- SHA-256 content hash
+- asset verification status and method
 
 Not every field has to be known immediately. Missing information can remain `null` and be added later without changing the earlier provenance history.
 
 ## First record
 
 `ART-001` documents **The Source**, a tarot-card artwork developed through iterative image generation and editing on September 7, 2026.
+
+Its final repository asset is linked directly in the provenance record and includes verified integrity metadata so the recorded provenance points to a specific file, not merely a title or description.
 
 ## Principle
 

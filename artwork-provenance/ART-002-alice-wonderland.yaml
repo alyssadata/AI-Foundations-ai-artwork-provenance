@@ -1,0 +1,76 @@
+artwork_id: "ART-002"
+title: null
+working_label: "Alice with dark hair and blue eyes in Wonderland"
+creator: "Alyssa Solen"
+status: "final"
+
+creation_date:
+  exact: null
+  estimate: "late April / early May 2023"
+  reference_date: "2023-05-01"
+  precision: "approximate"
+  basis: "Midjourney creation history displayed '175w' when inspected on 2026-09-07. The reference date is 175 weeks before that inspection date and is not asserted as the exact generation date."
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  prompt_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+    model: "v4"
+  generation_type: "text-to-image generation"
+  prompt: "alice with dark hair and blue eyes in wonderland"
+  platform_job_id: "d6f2dc36-0ecf-44ce-b3fd-ac54bde26f92"
+  source_or_reference_assets: []
+
+lineage:
+  - step: 1
+    description: "Alyssa Solen supplied the prompt 'alice with dark hair and blue eyes in wonderland' in Midjourney."
+  - step: 2
+    description: "The artwork was generated with Midjourney v4."
+  - step: 3
+    description: "Historical provenance was recovered from Alyssa Solen's Midjourney creation history in 2026, where the creation displayed an age marker of '175w'."
+
+creative_elements:
+  - "Alice in Wonderland-inspired concept"
+  - "dark hair"
+  - "blue eyes"
+  - "freckles"
+  - "portrait composition"
+  - "dark atmospheric palette"
+  - "blue and warm rim lighting"
+
+authorship:
+  concept: "Alyssa Solen"
+  prompt: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+asset:
+  repository_path: null
+  filename: null
+  file_size_bytes: null
+  github_blob_sha: null
+  sha256: null
+
+provenance_evidence:
+  - evidence_type: "Midjourney account history screenshot"
+    captured_date: "2026-09-07"
+    repository_path: "artwork/alice-provenance-175w-april-may2023.jpg"
+    filename: "alice-provenance-175w-april-may2023.jpg"
+    file_size_bytes: 332295
+    github_blob_sha: "9316a350ef42f503079ea998b885245f64c185c7"
+    sha256: null
+    shows:
+      - "the artwork in Alyssa Solen's Midjourney history"
+      - "prompt: alice with dark hair and blue eyes in wonderland"
+      - "model: v4"
+      - "age marker: 175w"
+
+verification:
+  verified: "partial"
+  verification_date: "2026-09-07"
+  method: "Prompt, Midjourney model version, historical age marker, and account-history context are supported by the repository screenshot. Exact original generation timestamp and standalone artwork file are not yet recorded."
+
+notes: "The downloaded file's local creation timestamp is not used as the artwork creation date because it reflects the later download/save event. Add the standalone artwork asset and its integrity metadata when it is placed in the repository."

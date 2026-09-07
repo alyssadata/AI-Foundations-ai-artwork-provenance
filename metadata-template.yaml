@@ -1,12 +1,25 @@
 artwork_id: "ART-###"
 title: ""
 creator: "Alyssa Solen"
-creation_date: "YYYY-MM-DD"
+record_type: "single artwork"
 status: "final"
+
+creation_date:
+  exact: null
+  estimate: null
+  year_label: null
+  precision: null
+  basis: null
+
+relationship:
+  type: null
+  description: null
+  same_job_asserted: null
 
 provenance:
   concept_by: "Alyssa Solen"
   art_direction_by: "Alyssa Solen"
+  prompt_by: null
   generation_assistance:
     provider: ""
     tool: ""
@@ -18,20 +31,24 @@ lineage:
   - step: 1
     description: ""
 
+primary_artifacts:
+  - artifact_id: "ART-###-A"
+    repository_path: null
+    filename: null
+    role: "primary provenance artifact"
+    file_size_bytes: null
+    github_blob_sha: null
+    sha256: null
+    visible_metadata: null
+    note: null
+
 creative_elements: []
 
 authorship:
   concept: "Alyssa Solen"
   direction: "Alyssa Solen"
   selection: "Alyssa Solen"
-  final_approval: "Alyssa Solen"
-
-asset:
-  repository_path: null
-  filename: null
-  file_size_bytes: null
-  github_blob_sha: null
-  sha256: null
+  final_approval: null
 
 verification:
   verified: false

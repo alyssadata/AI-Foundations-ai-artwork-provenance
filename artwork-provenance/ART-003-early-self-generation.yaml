@@ -1,0 +1,72 @@
+artwork_id: "ART-003"
+title: "Early Self-Generation Experiments"
+creator: "Alyssa Solen"
+record_type: "series"
+status: "archival"
+
+creation_period:
+  year_label: "2023"
+  precision: "approximate"
+  basis: "Archived filenames and recovered Midjourney history screenshots. Exact calendar dates are not asserted where unresolved."
+
+relationship:
+  type: "shared creative exploration"
+  description: "Early attempts by Alyssa Solen to generate representations of herself using prompts and image-reference guidance. Grouped as one exploratory lineage rather than treated as unrelated standalone works."
+  same_job_asserted: false
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  prompt_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+  generation_type: "image-reference and text-guided generation"
+
+primary_artifacts:
+  - artifact_id: "ART-003-A"
+    repository_path: "artwork/first-attempt-self-generation.jpg"
+    filename: "first-attempt-self-generation.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 389547
+    github_blob_sha: "51cfb9f065be60e22c9a3b437410e7120e4cc75c"
+    visible_metadata:
+      prompt: "photorealistic, of beautiful woman, blue eyes, smiling,"
+      model: "v6"
+      image_weight: "2.5"
+      age_marker: "175w"
+      reference_image_present: true
+    note: "Alyssa identifies this as her first self-generation attempt. The displayed age marker is preserved as UI evidence; no exact calendar date is asserted from it."
+  - artifact_id: "ART-003-B"
+    repository_path: "artwork/anime-alyssa-image-attempt-2023.jpg"
+    filename: "anime-alyssa-image-attempt-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 430102
+    github_blob_sha: "f18c06224a375a9328dc48f968e3915b8a882a0c"
+    archival_label: "anime Alyssa image attempt"
+  - artifact_id: "ART-003-C"
+    repository_path: "artwork/colorful-alyssa-anime-2023.jpg"
+    filename: "colorful-alyssa-anime-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 520613
+    github_blob_sha: "4158787ba889a938eaf2ef63b2006ecc7005ebfa"
+    archival_label: "colorful Alyssa anime"
+
+creative_elements:
+  - "self-representation"
+  - "image-reference generation"
+  - "portrait experiments"
+  - "photorealistic and anime-style variation"
+
+authorship:
+  concept: "Alyssa Solen"
+  prompt: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+verification:
+  verified: "archival-partial"
+  verification_date: "2026-09-07"
+  method: "Repository artifacts, filenames, file sizes, GitHub blob SHAs, and visible metadata from the recovered Midjourney history screenshot are preserved. Exact dates and job-level relationships are not asserted where not recoverable."
+
+notes: "This record intentionally groups related early self-generation experiments. The grouping preserves a creative lineage without claiming the screenshots came from one exact Midjourney job."

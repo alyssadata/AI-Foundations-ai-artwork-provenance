@@ -1,0 +1,44 @@
+artwork_id: "ART-008"
+title: "Black Birds / Formation / Recursion"
+creator: "Alyssa Solen"
+record_type: "single archival artwork"
+status: "archival"
+
+creation_period:
+  year_label: "2025"
+  precision: "approximate"
+  basis: "Archived filename. Exact calendar date is not asserted."
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+  generation_type: "AI-assisted image generation"
+
+primary_artifacts:
+  - artifact_id: "ART-008-A"
+    repository_path: "artwork/black-birds-formation-recursion-2025.jpg"
+    filename: "black-birds-formation-recursion-2025.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 550346
+    github_blob_sha: "5024de5c25c50d376b71f67b6ce53e7adc298a3a"
+
+creative_elements:
+  - "black birds"
+  - "formation"
+  - "recursion"
+  - "repetition and pattern"
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+verification:
+  verified: "archival-partial"
+  verification_date: "2026-09-07"
+  method: "Repository path, filename, file size, and GitHub blob SHA are recorded."
+
+notes: "Archived later; exact original generation date and prompt are not asserted."

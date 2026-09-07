@@ -1,0 +1,42 @@
+artwork_id: "ART-005"
+title: "Covered Sun"
+creator: "Alyssa Solen"
+record_type: "single archival artwork"
+status: "archival"
+
+creation_period:
+  year_label: "2023"
+  precision: "approximate"
+  basis: "Archived filename. Exact calendar date is not asserted."
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+  generation_type: "AI-assisted image generation"
+
+primary_artifacts:
+  - artifact_id: "ART-005-A"
+    repository_path: "artwork/covered-sun-2023.jpg"
+    filename: "covered-sun-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 425165
+    github_blob_sha: "ca009bf45874988aff46b2ea427f7787e5793ca7"
+
+creative_elements:
+  - "sun imagery"
+  - "covering / obscuration"
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+verification:
+  verified: "archival-partial"
+  verification_date: "2026-09-07"
+  method: "Repository path, filename, file size, and GitHub blob SHA are recorded."
+
+notes: "Archived years later; exact original generation date and prompt are not asserted."

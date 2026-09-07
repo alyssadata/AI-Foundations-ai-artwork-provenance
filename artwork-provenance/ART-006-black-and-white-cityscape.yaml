@@ -1,0 +1,43 @@
+artwork_id: "ART-006"
+title: "Black and White Cityscape"
+creator: "Alyssa Solen"
+record_type: "single archival artwork"
+status: "archival"
+
+creation_period:
+  year_label: "2023"
+  precision: "approximate"
+  basis: "Archived filename. Exact calendar date is not asserted."
+
+provenance:
+  concept_by: "Alyssa Solen"
+  art_direction_by: "Alyssa Solen"
+  generation_assistance:
+    provider: "Midjourney"
+    tool: "Midjourney"
+  generation_type: "AI-assisted image generation"
+
+primary_artifacts:
+  - artifact_id: "ART-006-A"
+    repository_path: "artwork/black-and-white-cityscape-2023.jpg"
+    filename: "black-and-white-cityscape-2023.jpg"
+    role: "primary provenance artifact"
+    file_size_bytes: 351992
+    github_blob_sha: "ba46249f977bced8f9924ed6adfe380629e85c6f"
+
+creative_elements:
+  - "black and white"
+  - "cityscape"
+  - "architectural atmosphere"
+
+authorship:
+  concept: "Alyssa Solen"
+  direction: "Alyssa Solen"
+  selection: "Alyssa Solen"
+
+verification:
+  verified: "archival-partial"
+  verification_date: "2026-09-07"
+  method: "Repository path, filename, file size, and GitHub blob SHA are recorded."
+
+notes: "Archived years later; exact original generation date and prompt are not asserted."

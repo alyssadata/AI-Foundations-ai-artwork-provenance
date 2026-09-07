@@ -1,31 +1,19 @@
-artwork_id: ART-###
-title: 
-creator: Alyssa Solen
-creation_date: yyyy-mm-dd
+# How the YAML record works
 
-provenance: (examples)
-  concept_by: Alyssa Solen
-  art_direction_by: Alyssa Solen
-  generation_assistance: OpenAI image generation 
-  generation_type: iterative image generation and edit
+YAML is just structured plain text. You do not need to learn much of it to use this repository.
 
-lineage: (examples)
-  - initial tarot concept
-  - refined to "THE SOURCE"
-  - removed incidental text
-  - shortened hair to shoulder length
+- `field: value` stores one piece of information.
+- Indented lines belong to the field above them.
+- Lines beginning with `-` are list items.
+- `null` means the information has not been recorded yet.
+- Quotes keep titles, dates, and descriptive text unambiguous.
 
-creative_elements: (examples)
-  - black birds
-  - sun halo
-  - infinity
-  - compass
-  - sunflowers
-  - celestial imagery
-  - black / ivory / gold / navy palette
+The reusable machine-readable template is [`metadata-template.yaml`](./metadata-template.yaml).
 
-authorship:
-  concept: Alyssa Solen
-  direction: Alyssa Solen
-  selection: Alyssa Solen
-  final_approval: Alyssa Solen
+For each finished artwork, copy that structure into `artwork-provenance/` and give the record its own ID, for example:
+
+`ART-001-the-source.yaml`
+
+The YAML is intended to preserve the creation chain: the concept, human art direction, generation assistance, iterative changes, recurring creative elements, selection, final approval, and—when available—the final file path and cryptographic hash.
+
+You do not need to fill every field immediately. Unknown or not-yet-recorded values can remain `null` until they are available.
